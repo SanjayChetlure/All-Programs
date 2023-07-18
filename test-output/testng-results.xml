@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-03T19:20:34 IST" name="Suite" finished-at="2023-07-03T19:20:49 IST" duration-ms="15418">
+    <groups>
+    </groups>
+    <test started-at="2023-07-03T19:20:34 IST" name="Test" finished-at="2023-07-03T19:20:49 IST" duration-ms="15418">
+      <class name="C_Wad_batch_Selenium_Programs.example7">
+        <test-method signature="TC1()[pri:0, instance:C_Wad_batch_Selenium_Programs.example7@69e1dd28]" started-at="2023-07-03T19:20:34 IST" name="TC1" finished-at="2023-07-03T19:20:42 IST" duration-ms="8204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1 -->
+      </class> <!-- C_Wad_batch_Selenium_Programs.example7 -->
+      <class name="C_Wad_batch_Selenium_Programs.example6">
+        <test-method signature="TC1()[pri:0, instance:C_Wad_batch_Selenium_Programs.example6@11bd0f3b]" started-at="2023-07-03T19:20:42 IST" name="TC1" finished-at="2023-07-03T19:20:49 IST" duration-ms="7169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1 -->
+      </class> <!-- C_Wad_batch_Selenium_Programs.example6 -->
+      <class name="C_Wad_batch_Selenium_Programs.example8">
+        <test-method signature="TC1()[pri:0, instance:C_Wad_batch_Selenium_Programs.example8@62e7f11d]" started-at="2023-07-03T19:20:34 IST" name="TC1" finished-at="2023-07-03T19:20:42 IST" duration-ms="8432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1 -->
+      </class> <!-- C_Wad_batch_Selenium_Programs.example8 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
