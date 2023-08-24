@@ -1,4 +1,4 @@
-package Logicalprograms;
+package LogicalProgram;
 
 import java.util.Set;
 import java.util.TreeMap;
