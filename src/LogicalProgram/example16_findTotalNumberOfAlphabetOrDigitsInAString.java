@@ -1,7 +1,5 @@
 package LogicalProgram;
 
-import javax.swing.plaf.SliderUI;
-
 public class example16_findTotalNumberOfAlphabetOrDigitsInAString 
 {
 	public static void main(String[] args)
@@ -13,25 +11,26 @@ public class example16_findTotalNumberOfAlphabetOrDigitsInAString
 		int countWhiteSpace=0;
 		int countSpclChar=0;
 				
+		//           4<=
 		for(int i=0; i<=str.length()-1; i++)
 		{
-			char s1 = str.charAt(i);    //' '
+			char s1 = str.charAt(i);    // ' '
 			
-			if(Character.isLetter(s1))
+			if(Character.isLetter(s1))   //' '  --> false
 			{
-				countLetter++;
+				countLetter++;     //3
 			}
-			else if(Character.isDigit(s1))
+			else if(Character.isDigit(s1))  //' '  --> false
 			{
-				countDigit++;
+				countDigit++;    //2
 			}
-			else if(Character.isWhitespace(s1))
+			else if(Character.isWhitespace(s1)) // ' '   --> true
 			{
-				countWhiteSpace++;
+				countWhiteSpace++;    //2
 			}
 			else
 			{
-				countSpclChar++;
+				countSpclChar++;  //1
 			}
 		}
 		

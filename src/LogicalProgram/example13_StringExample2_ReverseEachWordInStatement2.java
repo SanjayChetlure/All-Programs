@@ -3,8 +3,7 @@ package LogicalProgram;
 public class example13_StringExample2_ReverseEachWordInStatement2
 {
 	public static void main(String[] args) 
-	{
-		
+	{		
 		String s1="my name is abc";    //ym eman  si cba
 		
 		
@@ -16,7 +15,6 @@ public class example13_StringExample2_ReverseEachWordInStatement2
 			String org = ar[i];  //my
 			
 			String rev= reverseString(org);
-			
 			System.out.print(rev+" ");   //ym eman si cba
 		}
 	}
@@ -30,5 +28,4 @@ public class example13_StringExample2_ReverseEachWordInStatement2
 		}
 		return rev;
 	}
-
 }

@@ -1,4 +1,4 @@
-package C_Wad_batch_Selenium_Programs;
+package Selenium_Programs;
 
 import java.io.File;
 import java.io.IOException;

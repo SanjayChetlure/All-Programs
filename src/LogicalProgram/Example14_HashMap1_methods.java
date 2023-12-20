@@ -20,10 +20,10 @@ public class Example14_HashMap1_methods
 		System.out.println(mp);
 		
 		//3: containsKey(key) -> to verify specific key present or not
-		System.out.println(mp.containsKey(104));
+		System.out.println(mp.containsKey(102));
 		
 		//4: get(key) -> get value of specific key
-		System.out.println(mp.get(102));
+		System.out.println(mp.get(101));
 		
 		System.out.println("-----");
 		
@@ -39,6 +39,6 @@ public class Example14_HashMap1_methods
 		{
 			System.out.println(key+"-"+mp.get(key));
 		}	
-	
+		
 	}
 }

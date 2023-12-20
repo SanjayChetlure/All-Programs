@@ -7,18 +7,18 @@ public class example14_HashMap2_OccuranceOfEachCharInAString
 {
 	public static void main(String[] args)
 	{
-		String str="abcab";
+		String str="abcaba";
 		
 		HashMap<Character, Integer> mp=new HashMap();
 		
-		//           4<=4
+		//           5<=5
 		for(int i=0; i<=str.length()-1; i++)
-		{          //            4
-			char s1 = str.charAt(i);     //b
+		{          //            5
+			char s1 = str.charAt(i);     //a
 			
-			if(mp.containsKey(s1))
+			if(mp.containsKey(s1))   //b => true
 			{
-				mp.put(s1, mp.get(s1)+1);
+				mp.put(s1, mp.get(s1)+1);   // a, 2+1
 			}
 			else
 			{
@@ -29,7 +29,7 @@ public class example14_HashMap2_OccuranceOfEachCharInAString
 		
 		Set<Character> allKeys = mp.keySet();
 		
-		//Occurance of each character
+//		//Occurance of each character
 //		for(Character key:allKeys)
 //		{
 //			System.out.println(key+"-"+mp.get(key));

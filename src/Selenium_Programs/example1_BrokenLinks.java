@@ -1,4 +1,4 @@
-package C_Wad_batch_Selenium_Programs;
+package Selenium_Programs;
 
 import java.io.IOException;
 import java.net.HttpURLConnection;
@@ -26,7 +26,7 @@ public class example1_BrokenLinks
         driver.get(homePageUrl);
         
         List<WebElement> AllLinks = driver.findElements(By.xpath("//a"));
-       
+       System.out.println("Link Size:- "+AllLinks);
         
         for(WebElement link:AllLinks)
         {
@@ -46,16 +46,19 @@ public class example1_BrokenLinks
             
             try
             {
+            	//send request to server
                 huc = (HttpURLConnection)(new URL(url).openConnection());
                 huc.setRequestMethod("HEAD");
                 huc.connect();
                 
+                //get response from server
                 respCode = huc.getResponseCode();
                 
                 if(respCode >= 400)
                 {
                     System.out.println(url+" -is a broken link");
                 }
+               
             } 
             catch (MalformedURLException e) 
             {

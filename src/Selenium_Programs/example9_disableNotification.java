@@ -1,4 +1,4 @@
-package C_Wad_batch_Selenium_Programs;
+package Selenium_Programs;
 
 import java.time.Duration;
 

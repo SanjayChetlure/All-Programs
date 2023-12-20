@@ -12,9 +12,10 @@ public class example14_HashMap3_OccuranceOfEachStringInAStatement
 		
 		HashMap<String, Integer> mp=new HashMap();
 		
+		//           2<=6
 		for(int i=0; i<=ar.length-1; i++)
-		{
-			String s1 = ar[i];
+		{  //              1
+			String s1 = ar[i];  //name
 			
 			if(mp.containsKey(s1))
 			{
@@ -22,7 +23,7 @@ public class example14_HashMap3_OccuranceOfEachStringInAStatement
 			}
 			else
 			{
-				mp.put(s1, 1);
+				mp.put(s1, 1);    //name , 1
 			}
 		}
 		

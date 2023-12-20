@@ -8,14 +8,14 @@ public class example9_find_total_no_of_white_spaces_in_String
 		String str = "a b   c d";
 		int count = 0;  
 
-		//               2<=8
+		//               3<=8
 		for (int i = 0; i <= str.length() - 1; i++)
-		{    //                    2
-			char s1 = str.charAt(i);   // b
-			//  b == ' '
+		{    //                  3
+			char s1 = str.charAt(i);   // ' '
+			//  ' '  == ' '
 			if (s1 == ' ')    // 
 			{
-				count++;     //1
+				count++;     //2
 			}
 		}
 

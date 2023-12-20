@@ -1,4 +1,4 @@
-package C_Wad_batch_Selenium_Programs;
+package Selenium_Programs;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
