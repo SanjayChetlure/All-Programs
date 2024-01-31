@@ -3,9 +3,8 @@
 <suite name="Suite">
   <test thread-count="5" name="Test" parallel="classes">
     <classes>
-      <class name="C_Wad_batch_Selenium_Programs.example8"/>
-      <class name="C_Wad_batch_Selenium_Programs.example7"/>
-      <class name="C_Wad_batch_Selenium_Programs.example6"/>
+      <class name="LogicalProgram.example_acceptInputFromcmd"/>
+     
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
