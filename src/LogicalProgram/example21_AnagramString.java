@@ -16,13 +16,10 @@ public class example21_AnagramString
 		}
 		else 
 		{
-			//2: convert to lower case
-			s1=s1.toLowerCase();
-			s2=s2.toLowerCase();
 			
-			//3: convert to char array
-			char [] ar1=s1.toCharArray();
-			char [] ar2=s2.toCharArray();
+			//3: convert to lower case -> char array
+			char [] ar1=s1.toLowerCase().toCharArray();
+			char [] ar2=s2.toLowerCase().toCharArray();
 			
 			//4: sort both array
 			Arrays.sort(ar1);
