@@ -20,16 +20,16 @@ public class example6_BetterWindow_Tab_Management_OpenNewWindow2
 		driver.switchTo().newWindow(WindowType.WINDOW);
 		driver.get("https://www.google.com/");
 		System.out.println("after switching:- "+driver.getTitle());
-
-		
-		 Set<String> allIDS = driver.getWindowHandles();
-		 ArrayList<String> al=new ArrayList<>(allIDS);
-		
-		Thread.sleep(2000);
-		
-		driver.close();
-		driver.switchTo().window(al.get(0));
-		System.out.println("after closing new TAB:- "+driver.getTitle());
+//
+//		
+//		 Set<String> allIDS = driver.getWindowHandles();
+//		 ArrayList<String> al=new ArrayList<>(allIDS);
+//		
+//		Thread.sleep(2000);
+//		
+//		driver.close();
+//		driver.switchTo().window(al.get(0));
+//		System.out.println("after closing new TAB:- "+driver.getTitle());
 		
 	}
 	

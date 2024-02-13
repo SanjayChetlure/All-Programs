@@ -12,11 +12,9 @@ public class Ex3_RelativeLocator1_above
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.facebook.com/");
 		
-//		driver.findElement(RelativeLocator.with(By.tagName("input")).above(By.xpath("//input[@type='password']"))).sendKeys("abc");
-//		//driver.findElement(RelativeLocator.with(By.tagName("div")).above(By.xpath("//div[@class='_6ltj']"))).click();
-		
-		driver.findElement(RelativeLocator.with(By.tagName("input")).above(By.xpath("//input[@type='password']"))).sendKeys("abc");
-		
+	
+		//driver.findElement(RelativeLocator.with(By.tagName("input")).above(By.xpath("//input[@type='password']"))).sendKeys("abc");
+				
+		driver.findElement(RelativeLocator.with(By.tagName("input")).above(By.xpath("//input[@name='pass']"))).sendKeys("abc");
 	}
-
 }

@@ -33,8 +33,6 @@ public class example8__Modifications_In_the_Actions_Class1
 		act.moveToElement(ele).clickAndHold().perform();
 		//Replaced with
 		act.clickAndHold(ele).perform();
-		
-		
+			
 	}
-
 }

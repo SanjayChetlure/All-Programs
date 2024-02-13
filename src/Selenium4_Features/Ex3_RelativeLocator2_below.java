@@ -11,9 +11,13 @@ public class Ex3_RelativeLocator2_below
 	{
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.facebook.com/");
-		driver.findElement(RelativeLocator.with(By.tagName("a")).below(By.xpath("//div[@class='_6ltj']"))).click();
+	//	driver.findElement(RelativeLocator.with(By.tagName("a")).below(By.xpath("//div[@class='_6ltj']"))).click();
 		
 		//it click element below specified xpath of same level
+		
+		
+		driver.findElement(RelativeLocator.with(By.tagName("a")).below(By.xpath("//button[@name='login']"))).click();
+		
 	}
 
 }
