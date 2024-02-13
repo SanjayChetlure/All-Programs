@@ -5,7 +5,7 @@ import java.time.Duration;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Example_FluentWait
+public class SeleniumWait_Ex3_FluentWait
 {
 	public static void main(String[] args) {
 		
