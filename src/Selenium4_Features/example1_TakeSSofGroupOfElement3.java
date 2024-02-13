@@ -2,6 +2,7 @@ package Selenium4_Features;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.function.Predicate;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
@@ -23,6 +24,8 @@ public class example1_TakeSSofGroupOfElement3
 		File src = form.getScreenshotAs(OutputType.FILE);
 		File dest=new File("D:\\Study\\Notes\\Selenium\\Selenium 4 Features\\SS_Folder\\form.jpg");
 		FileHandler.copy(src, dest);
+		
+		Predicate<URI> p=uri ->uri.
 	
 	}
 }

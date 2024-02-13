@@ -11,7 +11,8 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class example2_selectDateInredBusApp {
+public class Calender_Ex1_SelectDateInredBusApp
+{
 	public static void main(String[] args) throws InterruptedException 
 	{
 		

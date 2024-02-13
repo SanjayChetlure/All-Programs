@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class example4_Zoom_in_Zoom_out_firefox2 
+public class ZoomInZoomOut_Ex2_Firefox 
 {
 	public static void main(String[] args) throws InterruptedException
 	{
