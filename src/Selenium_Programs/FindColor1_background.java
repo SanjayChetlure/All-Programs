@@ -15,11 +15,8 @@ public class FindColor1_background
 		driver.get("https://www.yatra.com/");
 		
 		WebElement ele = driver.findElement(By.cssSelector("[value='Check Your Refund']"));
-		
 		String clr =ele.getCssValue("background");
-		
 		System.out.println(clr);
-		
 		
 		String hexClr = Color.fromString(clr).asHex();
 		System.out.println(hexClr);
