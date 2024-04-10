@@ -14,7 +14,7 @@ public class javaScript2_EnterValueInTextbox
 		driver.get("https://www.facebook.com/");
 			
 		WebElement UN = driver.findElement(By.cssSelector("#email"));
-		((JavascriptExecutor)driver).executeScript("arguments[1].value='abc'", UN);
+		((JavascriptExecutor)driver).executeScript("arguments[0].value='abc'", UN);
 		
 	}
 }

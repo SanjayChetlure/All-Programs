@@ -20,8 +20,4 @@ public class javaScript3_diffBetweenArguments0_Arguments1
 		((JavascriptExecutor)driver).executeScript("arguments[1].value='abc'", UN1,UN2);
 		
 	}
-	
-	
-	
-
 }

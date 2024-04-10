@@ -1,7 +1,6 @@
 package C_Wad_batch_Programs;
 
 import java.util.HashMap;
-import java.util.LinkedHashSet;
 import java.util.Set;
 
 public class example8_findNonReapeatedCharInAString

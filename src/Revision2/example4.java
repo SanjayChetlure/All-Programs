@@ -1,7 +1,5 @@
 package Revision2;
 
-import java.util.HashMap;
-import java.util.Hashtable;
 import java.util.LinkedHashMap;
 import java.util.Set;
 

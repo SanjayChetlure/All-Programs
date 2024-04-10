@@ -1,9 +1,6 @@
 package C_Wad_batch_Programs;
 
 import java.util.Arrays;
-import java.util.HashMap;
-import java.util.LinkedHashSet;
-import java.util.Set;
 
 public class example4_lowest_highest_numInArray
 {

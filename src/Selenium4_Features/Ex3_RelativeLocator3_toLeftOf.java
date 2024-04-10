@@ -1,9 +1,9 @@
 package Selenium4_Features;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.locators.RelativeLocator;
-import org.openqa.selenium.By;
 
 public class Ex3_RelativeLocator3_toLeftOf
 {

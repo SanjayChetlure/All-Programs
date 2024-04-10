@@ -1,7 +1,5 @@
 package LogicalProgram;
 
-import java.util.Arrays;
-
 public class MoveZerosToLeft {
 
 	public static void main(String[] args) {

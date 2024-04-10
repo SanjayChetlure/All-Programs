@@ -1,7 +1,5 @@
 package Selenium_Programs;
 
-import java.time.Duration;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
